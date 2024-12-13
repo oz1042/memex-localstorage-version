@@ -41,7 +41,7 @@
 
 ## 今後の展望(学びたいこと・実現したいこと)
 - デザインイメージ
-  <img width="940" alt="memex" src="https://github.com/user-attachments/assets/9a3e51a0-8263-42fb-8430-acfc0627663f" />
+  - <img width="850" alt="memex" src="https://github.com/user-attachments/assets/9a3e51a0-8263-42fb-8430-acfc0627663f" />
   - 実現したい機能
     - タイトルとコンテンツ(文字や画像、リンクなど)と作成日時・最終更新日時を一枚のカードに記録。
     - バックリンク機能(カード同士をリンクできる機能)。
