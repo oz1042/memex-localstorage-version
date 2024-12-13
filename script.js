@@ -24,7 +24,7 @@ addBtn.addEventListener("click", () => {
     if (text) {
         notes.push(text);
         localStorage.setItem("notes", JSON.stringify(notes));
-		console.log(JSON.stringify(notes, null ,2));
+        console.log(JSON.stringify(notes, null, 2)); //整形されたJSONを出力。
         memoInput.value = ""; // 入力欄クリア
         renderNotes(); // 再描画
     }
