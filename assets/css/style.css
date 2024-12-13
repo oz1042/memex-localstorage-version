@@ -1,53 +1,100 @@
 body,
 html {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18px;
+  background-color: #212121;
+  color: #ECECEC;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
 }
 
 .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-top: 20px;
-    width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+  width: 100%;
 }
 
 textarea {
-    width: 300px;
-    height: 100px;
-    margin-bottom: 20px;
+  width: 450px;
+  height: 250px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #2F2F2F;
+  color: #ECECEC;
+  resize: none;
+  font-size: 18px;
+  border: none;
+  padding: 10px;
+  letter-spacing: 1.2px;
+  font-family: "Noto Sans JP", sans-serif;
+  -webkit-box-shadow: 0 5px 10px rgba(5, 5, 5, 0.3);
+          box-shadow: 0 5px 10px rgba(5, 5, 5, 0.3);
+}
+textarea::-webkit-input-placeholder {
+  font-size: 16px;
+  color: #ECECEC;
+}
+textarea::-moz-placeholder {
+  font-size: 16px;
+  color: #ECECEC;
+}
+textarea:-ms-input-placeholder {
+  font-size: 16px;
+  color: #ECECEC;
+}
+textarea::-ms-input-placeholder {
+  font-size: 16px;
+  color: #ECECEC;
+}
+textarea::placeholder {
+  font-size: 16px;
+  color: #ECECEC;
 }
 
 .buttons {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 .buttons button {
-    margin: 0 5px;
+  margin: 5px 15px;
+  padding: 8px 30px;
+  border-radius: 25px;
+  border: none;
+  background-color: #ECECEC;
+  color: #2F2F2F;
+  font-size: 16px;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .notes {
-    width: 300px;
-    border-top: 1px solid #ccc;
-    padding-top: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-    -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse;
+  width: 450px;
+  border-top: 1px solid #ECECEC;
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
 }
 .notes p {
-    background: #f0f0f0;
-    margin: 5px 0;
-    padding: 5px;
-    word-wrap: break-word;
+  background-color: #2F2F2F;
+  margin: 5px 0;
+  padding: 10px;
+  word-wrap: break-word;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 5px 10px rgba(5, 5, 5, 0.3);
+          box-shadow: 0 5px 10px rgba(5, 5, 5, 0.3);
 }
 /*# sourceMappingURL=style.css.map */

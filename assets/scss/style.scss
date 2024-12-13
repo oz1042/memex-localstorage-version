@@ -1,39 +1,68 @@
 body,
 html {
     box-sizing: border-box;
+	font-size: 18px;
+	background-color: #212121;
+	color: #ECECEC;
+	font-family: "Noto Sans JP", sans-serif;
+	font-weight: 400;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-	margin-top: 20px;
+	margin-top: 40px;
     width: 100%;
 }
 
 textarea {
-    width: 300px;
-    height: 100px;
+    width: 450px;
+    height: 250px;
     margin-bottom: 20px;
+	border-radius: 10px;
+	background-color: #2F2F2F;
+	color: #ECECEC;
+	resize: none;
+	font-size: 18px;
+	border: none;
+	padding: 10px;
+	letter-spacing: 1.2px;
+	font-family: "Noto Sans JP", sans-serif;
+	box-shadow: 0 5px 10px rgba(5, 5, 5, 0.3);
+	&::placeholder {
+		font-size: 16px;
+		color: #ECECEC;
+	}
 }
 
 .buttons {
     margin-bottom: 20px;
+	font-size: 20px;
 	button {
-		margin: 0 5px;
+		margin: 5px 15px;
+        padding: 8px 30px;
+		border-radius: 25px;
+		border: none;
+		background-color: #ECECEC;
+		color: #2F2F2F;
+		font-size: 16px;
+		font-family: "Noto Sans JP", sans-serif;
 	}
 }
 
 .notes {
-    width: 300px;
-    border-top: 1px solid #ccc;
+    width: 450px;
+    border-top: 1px solid #ECECEC;
     padding-top: 10px;
 	display: flex;
 	flex-direction: column-reverse;
 	p {
-		background: #f0f0f0;
+		background-color: #2F2F2F;
 		margin: 5px 0;
-		padding: 5px;
+		padding: 10px;
 		word-wrap: break-word;
+		border-radius: 10px;
+		box-shadow: 0 5px 10px rgba(5, 5, 5, 0.3);
 	}
 }
