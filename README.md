@@ -62,3 +62,8 @@
 - デプロイ
 
 ## 更新記録(学んだこと)
+### 12-13-2024
+初期バージョンの実装。
+### 12-14-2024
+[The Modern JavaScript Tutorial](https://ja.javascript.info/)の通読を手を動かしながら進めた。
+学習記録用リポジトリ [oz1042/the-modern-javascript-tutorial](https://github.com/oz1042/the-modern-javascript-tutorial)
