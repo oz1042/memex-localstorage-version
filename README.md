@@ -39,6 +39,10 @@
 - メモ削除機能
   - 「削除」ボタンを押すと最新の一件のメモを削除できる機能。
 
+## 学んだこと
+### Local Storage
+<追記中>
+
 ## 今後の展望(学びたいこと・実現したいこと)
 - デザインイメージ
   - この図は、https://excalidraw.com/ を使用して作成しました。<img width="850" alt="memex" src="https://github.com/user-attachments/assets/9a3e51a0-8263-42fb-8430-acfc0627663f" />
@@ -61,7 +65,7 @@
 - Docker/GitHub Actions(CI/CD)
 - デプロイ
 
-## 更新記録(学んだこと)
+## 更新記録
 ### 12-13-2024
 初期バージョンの実装。
 ### 12-14-2024
